@@ -1,0 +1,158 @@
+.owl-schedule .schedule-row:not(:last-child) {
+    border-bottom: none;
+}
+
+.service {
+	margin: 30px 0;
+}
+
+.service .icon-holder > i.fa-3x {
+    color: #00a8ff;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+
+.productsOverlay {
+  position: absolute;
+  top: -10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00a8ff;
+}
+
+.foto:hover .productsOverlay {
+  opacity: 0.85;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#product-list {
+	padding-top: 50px;
+}
+
+.justificado {
+	text-align: justify;
+}
+
+.separado {
+	margin-top: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.comments {
+  padding: 40px 0;
+}
+
+.form-control, .address-sub, #map-container {
+	color: #00a8ff;
+  background-color: rgba(206, 203, 203, 0.50);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 5px;
+}
+
+.form-control {
+  font-size: 14px;
+}
+
+#map {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#contacto .btn {
+  color: #2d2d2d;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: rgba(206, 203, 203, 0.50);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#contacto .btn:hover {
+  color: #00a8ff;
+}
+
+#contacto a {
+	color: #505152;
+}
+
+#contacto a:hover {
+  color: #00a8ff;
+}
+
+.blog-post ul h6{
+  margin-left: 40px;
+}
+.blog-post ul li .fa {
+  border-radius: 33px 33px;
+  /*background: rgb(219, 82, 82);*/
+  width: 28px;
+  /* height: 20px; */
+  text-align: center;
+  padding: 7px 7px;
+  margin-right: 9px;
+}
+.blog-post ul {
+  margin-left: -40px;
+  list-style: none;
+}
+.blog-post .fa{
+  margin-right: 10px;
+  background:transparent;
+  width: 28px;
+  text-align: center;
+  padding: 7px 7px;
+  cursor: pointer;
+}
+.blog-post .fa:hover{
+  color: #00a8ff;
+  transition: all .6s;
+}
+
+.oscuro {
+ 	color: #505152;
+}
+
+#contacto p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #969696;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 992px) {
+  .section {
+      padding: 100px 0;
+  }
+}
+
+@media (max-width: 767px){
+  .blog-post {
+    margin-bottom: 40px;
+  }
+}
