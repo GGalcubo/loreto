@@ -46,3 +46,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.pyc
+web/migrations/0001_initial.py
+loreto/settings.py
